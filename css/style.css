@@ -64,6 +64,26 @@ h1 {
     max-width: 28rem;
 }
 
+@media (max-width: 33.75rem) {
+    h1 {
+        max-width: 18rem;
+    }
+}
+
+#mobile-divider {
+    display: none;
+}
+
+@media (max-width: 33.75rem) {
+    #desktop-divider {
+        display: none;
+    }
+
+    #mobile-divider {
+        display: block;
+    }
+}
+
 .dice {
     margin-top: 2.5rem;
     margin-bottom: -1.5rem;
